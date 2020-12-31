@@ -13,7 +13,7 @@ function sendCountEmails() {
     }
 
     const greeting = 'Dear ' + recipient + ',\n'
-    const bananasCountMessage = 'You have ' + bananasCount + ' bananas accumulated.';
+    const bananasCountMessage = 'You now have ' + bananasCount + ' bananas accumulated.';
     const greatJobMessage = 'Great job! Come pick them up :)';
 
     const message = [greeting, bananasCountMessage, greatJobMessage].join('\n');
